@@ -5,7 +5,7 @@
     "main": "src/history.js",
     "license": "MIT",
     "ignore": [
-        "**/.*",
+        "**/*",
         "!src/**"
     ],
     "keywords": [
