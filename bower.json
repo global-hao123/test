@@ -6,8 +6,7 @@
     "license": "MIT",
     "ignore": [
         "**/.*",
-        "*.md",
-        "demo"
+        "!src"
     ],
     "keywords": [
         "history"
