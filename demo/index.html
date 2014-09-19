@@ -8,7 +8,7 @@
 
 <body>
     <h1>HISTORY</h1>
-    <button id="trigger">CHANGE HASH</button>
+    <button id="trigger">1CHANGE HASH</button>
     <br/>
     <div class="dynamic"></div>
     <script>module = {};</script>
@@ -41,7 +41,7 @@
                 var newHash = HASHLIST[index];
                 // bind trigger
                 historyObj.pushState(newHash);
-            });    
+            });
 
             // capture history custom event
             $(historyObj).on("popstate", function(e, hash) {
